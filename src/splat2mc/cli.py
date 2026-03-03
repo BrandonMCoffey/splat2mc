@@ -38,11 +38,37 @@ def main():
     default=0.1,
     help="Minimum opacity threshold (default: 0.1)",
 )
-def convert(ply_file: Path, output: Path, max_particles: int, size: float, min_opacity: float):
+@click.option(
+    "-p", "--particle-scale",
+    type=float,
+    default=1.0,
+    help="Multiplier for individual particle sizes (default: 1.0)",
+)
+@click.option(
+    "-t", "--particle-type",
+    type=click.Choice(["dust", "entity_effect", "dust_color_transition"]),
+    default="dust",
+    help="Minecraft particle type to use (default: dust)",
+)
+@click.option(
+    "--flip-y",
+    is_flag=True,
+    help="Flip the Y-axis (up vector) to fix upside-down imports",
+)
+def convert(
+    ply_file: Path, 
+    output: Path, 
+    max_particles: int, 
+    size: float, 
+    min_opacity: float, 
+    particle_scale: float, 
+    particle_type: str, 
+    flip_y: bool
+):
     """Convert a PLY file to a Minecraft datapack.
     
     Example:
-        splat2mc convert scene.ply -o ./datapacks
+        splat2mc convert scene.ply -o ./datapacks --flip-y -t entity_effect
     """
     output.mkdir(parents=True, exist_ok=True)
     datapack_path = convert_ply_to_datapack(
@@ -51,6 +77,9 @@ def convert(ply_file: Path, output: Path, max_particles: int, size: float, min_o
         max_particles=max_particles,
         target_size=size,
         min_opacity=min_opacity,
+        particle_scale_multiplier=particle_scale,
+        particle_type=particle_type,
+        flip_y=flip_y,
     )
     click.echo(f"\n✓ Datapack created: {datapack_path}")
     click.echo(f"  Copy to your world's datapacks/ folder")
