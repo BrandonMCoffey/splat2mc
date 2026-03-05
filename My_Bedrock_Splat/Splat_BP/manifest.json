@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Splat BP",
+        "description": "Behavior pack for 3D splats",
+        "uuid": "91e88aff-6150-4785-9842-084ef6e03fef",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "fd2fc4f2-1a4e-455e-8b27-f75c1e1cc047",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        },
+        {
+            "uuid": "90ade14e-03bb-436a-9743-008400c67fb5",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
