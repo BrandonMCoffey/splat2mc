@@ -24,9 +24,11 @@ export function scriptBox(log, targetLocation) {
       };
 
       // Set the shared variables (Color, Scale, Roll)
-      vars.setFloat("variable.color_r", s[3]);
-      vars.setFloat("variable.color_g", s[4]);
-      vars.setFloat("variable.color_b", s[5]);
+      const OVERBRIGHT = 1.5; 
+      vars.setFloat("variable.color_r", s[3] * OVERBRIGHT);
+      vars.setFloat("variable.color_g", s[4] * OVERBRIGHT);
+      vars.setFloat("variable.color_b", s[5] * OVERBRIGHT);
+      
       vars.setFloat("variable.scale_x", s[6] * GLOBAL_SCALE_MULTIPLIER);
       vars.setFloat("variable.scale_y", s[7] * GLOBAL_SCALE_MULTIPLIER);
       vars.setFloat("variable.roll", s[11]);
