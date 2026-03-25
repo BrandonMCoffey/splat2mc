@@ -1,3 +1,3 @@
-uv run splat2mc convert Test01-Clean.ply -o ./datapacks -n 15000 -p 0.25 -s 16 --flip-y
+uv run splat2mc convert Gem01.ply -o ./datapacks -n 15000 -p 0.25 -s 16 --flip-y
 
-python export_oriented.py Test01-Clean.ply
+python export_oriented.py Gem01.ply -n 5000
