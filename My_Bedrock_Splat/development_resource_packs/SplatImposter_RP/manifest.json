@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Visuals for Ultra-Realistic 3D Imposters",
+    "name": "Gallery Imposter RP",
+    "uuid": "4f2a1b9c-7d3e-4f6a-9b2c-1d5e8f3a0b4c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Resources for custom gallery entities",
+      "type": "resources",
+      "uuid": "9d8e7f6a-5c4b-3a2b-1a0f-9e8d7c6b5a4a",
+      "version": [1, 0, 0]
+    }
+  ]
+}

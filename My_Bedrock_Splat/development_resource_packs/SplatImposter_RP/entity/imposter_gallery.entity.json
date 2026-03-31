@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+        "identifier": "gallery:imposter",
+        "materials": { "default": "entity_alphatest" },
+        "textures": { "default": "textures/entity/imposter_gallery" },
+        "geometry": {
+            "default": "geometry.imposter_plane" 
+        },
+        "render_controllers": [ "controller.render.imposter" ],
+        "scripts": {
+            "animate": [ "facing" ]
+        },
+        "animations": {
+            "facing": "animation.imposter.facing"
+        }
+    }
+  }
+}
