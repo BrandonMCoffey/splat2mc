@@ -4,8 +4,8 @@
     {
       "description": {
         "identifier": "geometry.imposter",
-        "texture_width": 4096,
-        "texture_height": 768
+        "texture_width": 256,
+        "texture_height": 256
       },
       "bones": [
         {
