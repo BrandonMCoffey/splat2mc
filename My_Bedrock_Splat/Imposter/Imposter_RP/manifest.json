@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Imposter RP",
+        "description": "Visual for Imposter",
+        "uuid": "f8d7d2fb-21f9-4128-bd63-46bdc2b412c3",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "4f796ea2-b198-4d82-9dfc-1fc8e755b4a2",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ed6ea6e7-1aa4-432f-9857-3cb3b2d3b9c8",
+            "version": [1, 0, 0]
+        }
+    ]
+}

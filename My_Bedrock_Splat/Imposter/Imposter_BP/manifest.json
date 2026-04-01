@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Imposter BP",
+        "description": "Imposter Entity",
+        "uuid": "ed6ea6e7-1aa4-432f-9857-3cb3b2d3b9c8",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d4be7723-a9b4-4553-9162-ab227740d9c6",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "f8d7d2fb-21f9-4128-bd63-46bdc2b412c3",
+            "version": [1, 0, 0]
+        }
+    ]
+}
