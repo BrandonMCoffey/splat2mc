@@ -6,8 +6,8 @@
       "bones": {
         "body": {
           "rotation": [
-            "query.camera_rotation(0)",
-            "query.camera_rotation(1) - query.body_y_rotation",
+            "v.snapped_pitch",
+            "v.snapped_yaw",
             0
           ]
         }
