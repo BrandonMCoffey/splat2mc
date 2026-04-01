@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.imposter.look_at": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "query.camera_rotation(0)",
+            "query.camera_rotation(1) - query.body_y_rotation",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

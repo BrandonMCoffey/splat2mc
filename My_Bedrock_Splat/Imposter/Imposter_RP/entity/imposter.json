@@ -12,11 +12,12 @@
       "geometry": {
         "default": "geometry.imposter"
       },
+      "animations": {
+        "look_at": "animation.imposter.look_at"
+      },
       "scripts": {
+        "animate": [ "look_at" ],
         "pre_animation": [
-          "v.frame_w = 512;",
-          "v.frame_h = 512;",
-          
           "v.delta_yaw = math.mod(query.camera_rotation(1) - query.body_y_rotation + 180 + 360, 360);",
           "v.col = math.mod(math.round(v.delta_yaw / 22.5), 16);",
           

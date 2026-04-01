@@ -4,22 +4,23 @@
     {
       "description": {
         "identifier": "geometry.imposter",
-        "texture_width": 8192,
-        "texture_height": 1536,
-        "visible_bounds_width": 2,
-        "visible_bounds_height": 2,
-        "visible_bounds_offset": [0, 1, 0]
+        "texture_width": 4096,
+        "texture_height": 768
       },
       "bones": [
         {
-          "name": "billboard_bone",
+          "name": "body",
           "pivot": [0, 8, 0],
-          "billboard": "face_camera_view_dir",
           "cubes": [
             {
               "origin": [-8, 0, 0],
               "size": [16, 16, 0],
-              "uv": [0, 0]
+              "uv": {
+                "north": {
+                  "uv": [0, 0],
+                  "uv_size": [256, 256]
+                }
+              }
             }
           ]
         }
