@@ -5,9 +5,16 @@
       "arrays": {
         "textures": {
           "Array.frames": [
-            "Texture.f0", "Texture.f1", "Texture.f2", "Texture.f3", "Texture.f4", "Texture.f5", "Texture.f6", "Texture.f7", "Texture.f8", "Texture.f9", "Texture.f10", "Texture.f11", "Texture.f12", "Texture.f13", "Texture.f14", "Texture.f15",
-            "Texture.f16", "Texture.f17", "Texture.f18", "Texture.f19", "Texture.f20", "Texture.f21", "Texture.f22", "Texture.f23", "Texture.f24", "Texture.f25", "Texture.f26", "Texture.f27", "Texture.f28", "Texture.f29", "Texture.f30", "Texture.f31",
-            "Texture.f32", "Texture.f33", "Texture.f34", "Texture.f35", "Texture.f36", "Texture.f37", "Texture.f38", "Texture.f39", "Texture.f40", "Texture.f41", "Texture.f42", "Texture.f43", "Texture.f44", "Texture.f45", "Texture.f46", "Texture.f47"
+            "Texture.f0", "Texture.f1", "Texture.f2", "Texture.f3", "Texture.f4", "Texture.f5", "Texture.f6", "Texture.f7", "Texture.f8", "Texture.f9",
+            "Texture.f10", "Texture.f11", "Texture.f12", "Texture.f13", "Texture.f14", "Texture.f15", "Texture.f16", "Texture.f17", "Texture.f18", "Texture.f19",
+            "Texture.f20", "Texture.f21", "Texture.f22", "Texture.f23", "Texture.f24", "Texture.f25", "Texture.f26", "Texture.f27", "Texture.f28", "Texture.f29",
+            "Texture.f30", "Texture.f31", "Texture.f32", "Texture.f33", "Texture.f34", "Texture.f35", "Texture.f36", "Texture.f37", "Texture.f38", "Texture.f39",
+            "Texture.f40", "Texture.f41", "Texture.f42", "Texture.f43", "Texture.f44", "Texture.f45", "Texture.f46", "Texture.f47", "Texture.f48", "Texture.f49",
+            "Texture.f50", "Texture.f51", "Texture.f52", "Texture.f53", "Texture.f54", "Texture.f55", "Texture.f56", "Texture.f57", "Texture.f58", "Texture.f59",
+            "Texture.f60", "Texture.f61", "Texture.f62", "Texture.f63", "Texture.f64", "Texture.f65", "Texture.f66", "Texture.f67", "Texture.f68", "Texture.f69",
+            "Texture.f70", "Texture.f71", "Texture.f72", "Texture.f73", "Texture.f74", "Texture.f75", "Texture.f76", "Texture.f77", "Texture.f78", "Texture.f79",
+            "Texture.f80", "Texture.f81", "Texture.f82", "Texture.f83", "Texture.f84", "Texture.f85", "Texture.f86", "Texture.f87", "Texture.f88", "Texture.f89",
+            "Texture.f90", "Texture.f91", "Texture.f92", "Texture.f93", "Texture.f94", "Texture.f95"
           ]
         }
       },

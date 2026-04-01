@@ -102,8 +102,7 @@
         "f92": "textures/entity/image_92",
         "f93": "textures/entity/image_93",
         "f94": "textures/entity/image_94",
-        "f95": "textures/entity/image_95",
-        "f96": "textures/entity/image_96"
+        "f95": "textures/entity/image_95"
       },
       "geometry": {
         "default": "geometry.imposter"
