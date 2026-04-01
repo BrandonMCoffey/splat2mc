@@ -11,7 +11,7 @@
     {
       "description": "Behavior components for gallery entities",
       "type": "data",
-      "uuid": "09b786bd-abb1-4b55-9c26-4e67ce0b7f2f",
+      "uuid": "11462e14-f6b2-42f0-b611-3f7fdf83f329",
       "version": [1, 0, 0]
     },
     {
@@ -29,7 +29,7 @@
       "version": "1.1.0" 
     },
     {
-      "uuid": "11462e14-f6b2-42f0-b611-3f7fdf83f329",
+      "uuid": "09b786bd-abb1-4b55-9c26-4e67ce0b7f2f",
       "version": [1, 0, 0]
     }
   ]
