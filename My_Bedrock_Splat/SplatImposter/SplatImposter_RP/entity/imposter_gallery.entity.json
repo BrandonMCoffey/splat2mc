@@ -3,17 +3,23 @@
   "minecraft:client_entity": {
     "description": {
         "identifier": "gallery:imposter",
-        "materials": { "default": "entity_alphatest" },
-        "textures": { "default": "textures/entity/imposter_gallery" },
+        "render_controllers": [
+            "controller.render.imposter"
+        ],
         "geometry": {
             "default": "geometry.imposter_plane" 
         },
-        "render_controllers": [ "controller.render.imposter" ],
-        "scripts": {
-            "animate": [ "facing" ]
+        "textures": {
+            "default": "textures/entity/splat_imposter"
+        },
+        "materials": {
+            "default": "entity_alphatest"
         },
         "animations": {
             "facing": "animation.imposter.facing"
+        },
+        "scripts": {
+            "animate": [ "facing" ]
         }
     }
   }

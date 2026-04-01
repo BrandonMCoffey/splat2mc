@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Visuals for Ultra-Realistic 3D Imposters",
-    "name": "Gallery Imposter RP",
-    "uuid": "4f2a1b9c-7d3e-4f6a-9b2c-1d5e8f3a0b4c",
+    "name": "Splat Imposter RP",
+    "description": "Visual for 3D Imposters",
+    "uuid": "09b786bd-abb1-4b55-9c26-4e67ce0b7f2f",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -11,7 +11,7 @@
     {
       "description": "Resources for custom gallery entities",
       "type": "resources",
-      "uuid": "9d8e7f6a-5c4b-3a2b-1a0f-9e8d7c6b5a4a",
+      "uuid": "32d4482e-883d-4850-a867-a1dc8599d81d",
       "version": [1, 0, 0]
     }
   ]

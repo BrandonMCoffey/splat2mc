@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Logic and Math for 3D Imposters",
-    "name": "Gallery Imposter BP",
-    "uuid": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+    "name": "Splat Imposter BP",
+    "description": "Behaviors for 3D Imposters",
+    "uuid": "b85bf8f3-c3bb-40bc-b2f2-1469b5e1bdbd",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -11,14 +11,14 @@
     {
       "description": "Behavior components for gallery entities",
       "type": "data",
-      "uuid": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+      "uuid": "09b786bd-abb1-4b55-9c26-4e67ce0b7f2f",
       "version": [1, 0, 0]
     },
     {
       "description": "JavaScript logic for angle calculations",
       "language": "javascript",
       "type": "script",
-      "uuid": "a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6",
+      "uuid": "809c5ac4-4b0b-45f1-9ed3-82d151ab29bc",
       "version": [1, 0, 0],
       "entry": "scripts/main.js"
     }
@@ -29,7 +29,7 @@
       "version": "1.1.0" 
     },
     {
-      "uuid": "4f2a1b9c-7d3e-4f6a-9b2c-1d5e8f3a0b4c",
+      "uuid": "11462e14-f6b2-42f0-b611-3f7fdf83f329",
       "version": [1, 0, 0]
     }
   ]

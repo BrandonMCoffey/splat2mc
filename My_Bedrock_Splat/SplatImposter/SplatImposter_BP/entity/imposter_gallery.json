@@ -18,7 +18,7 @@
     "components": {
       "minecraft:physics": {
         "has_gravity": false,
-        "has_collision": true
+        "has_collision": false
       },
       "minecraft:collision_box": {
         "width": 1.0,
@@ -26,7 +26,7 @@
       },
       "minecraft:pushable": {
         "is_pushable": false,
-        "is_pushable_by_piston": true
+        "is_pushable_by_piston": false
       },
       "minecraft:health": {
         "value": 1,
@@ -38,8 +38,7 @@
             "filters": {
               "test": "is_difficulty",
               "value": "peaceful"
-            },
-            "cause": "all"
+            }
           }
         }
       }
